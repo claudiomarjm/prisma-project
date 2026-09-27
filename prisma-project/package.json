@@ -1,0 +1,22 @@
+{
+  "name": "prisma-courses-project",
+  "version": "1.0.0",
+  "description": "Projeto pratico com Prisma ORM, Node.js e PostgreSQL via Docker - modelos Course e Module",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "keywords": ["prisma", "postgresql", "docker", "orm", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.20.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.20.0"
+  }
+}
